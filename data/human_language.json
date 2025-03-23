@@ -1,0 +1,948 @@
+{
+    "categories": {
+        "conservation": {
+            "description": "Intents related to conversations about environmental conservation and sustainability.",
+            "intents": [
+                {
+                    "name": "greeting",
+                    "description": "Recognizes when the user greets the virtual assistant",
+                    "examples": [
+                        "Hello!",
+                        "Hey, how are you?",
+                        "Good morning!",
+                        "Hi there!",
+                        "Hey assistant!"
+                    ]
+                },
+                {
+                    "name": "goodbye",
+                    "description": "Recognizes when the user ends the conversation",
+                    "examples": [
+                        "Goodbye!",
+                        "See you later.",
+                        "Bye, have a nice day!",
+                        "Catch you later!",
+                        "I'm out, bye!"
+                    ]
+                },
+                {
+                    "name": "thank_you",
+                    "description": "Recognizes when the user expresses gratitude",
+                    "examples": [
+                        "Thank you!",
+                        "Thanks a lot!",
+                        "I appreciate your help.",
+                        "Much appreciated!",
+                        "Thanks, assistant!"
+                    ]
+                },
+                {
+                    "name": "apology",
+                    "description": "Recognizes when the user apologizes",
+                    "examples": [
+                        "I'm sorry.",
+                        "Oops, my bad!",
+                        "I didn't mean that.",
+                        "Sorry about that!",
+                        "My apologies."
+                    ]
+                },
+                {
+                    "name": "affirmation",
+                    "description": "Recognizes when the user agrees or confirms",
+                    "examples": [
+                        "Yes!",
+                        "That's correct.",
+                        "I agree.",
+                        "Sure!",
+                        "Absolutely!"
+                    ]
+                },
+                {
+                    "name": "negation",
+                    "description": "Recognizes when the user disagrees or denies",
+                    "examples": [
+                        "No.",
+                        "I don't think so.",
+                        "Not really.",
+                        "No way!",
+                        "I disagree."
+                    ]
+                },
+                {
+                    "name": "unknown",
+                    "description": "Handles situations where the assistant does not understand the user's input",
+                    "examples": [
+                        "What are you talking about?",
+                        "Huh?",
+                        "I don't understand.",
+                        "Can you repeat that?",
+                        "I have no idea what you mean."
+                    ]
+                }
+            ]
+        },
+        "weather": {
+            "description": "Intents related to weather inquiries and forecasts.",
+            "intents": [
+                {
+                    "name": "current_weather",
+                    "description": "Recognizes when the user asks about the current weather conditions.",
+                    "examples": [
+                        "What's the weather like today?",
+                        "Is it raining right now?",
+                        "How's the weather in New York?",
+                        "Tell me today's weather forecast.",
+                        "Is it sunny outside?"
+                    ]
+                },
+                {
+                    "name": "weather_forecast",
+                    "description": "Recognizes when the user inquires about future weather conditions.",
+                    "examples": [
+                        "What's the weather like tomorrow?",
+                        "Will it rain this weekend?",
+                        "Give me the 7-day forecast.",
+                        "Is it going to be cold next week?",
+                        "Will it snow on Christmas?"
+                    ]
+                },
+                {
+                    "name": "air_quality",
+                    "description": "Recognizes when the user asks about air quality levels.",
+                    "examples": [
+                        "What’s the air quality today?",
+                        "Is it safe to go outside?",
+                        "How’s the pollution level in my city?",
+                        "Tell me about the AQI index.",
+                        "Is the air clean today?"
+                    ]
+                },
+                {
+                    "name": "storm_alerts",
+                    "description": "Recognizes when the user inquires about storm warnings or severe weather alerts.",
+                    "examples": [
+                        "Are there any storm warnings today?",
+                        "Is there a hurricane coming?",
+                        "Tell me about any severe weather alerts.",
+                        "Should I prepare for a thunderstorm?",
+                        "Is there a tornado watch?"
+                    ]
+                },
+                {
+                    "name": "humidity_levels",
+                    "description": "Recognizes when the user asks about humidity levels.",
+                    "examples": [
+                        "What’s the humidity today?",
+                        "Is it very humid outside?",
+                        "Tell me the humidity level right now.",
+                        "How dry is the air today?",
+                        "Will the humidity be high tomorrow?"
+                    ]
+                },
+                {
+                    "name": "sunrise_sunset",
+                    "description": "Recognizes when the user asks about sunrise and sunset times.",
+                    "examples": [
+                        "What time does the sun rise?",
+                        "When will the sun set today?",
+                        "Tell me the sunrise and sunset times for tomorrow.",
+                        "What’s the sunset time in New York?",
+                        "Will the sunset be earlier next week?"
+                    ]
+                },
+                {
+                    "name": "temperature_extremes",
+                    "description": "Recognizes when the user asks about extreme temperatures.",
+                    "examples": [
+                        "What’s the highest temperature today?",
+                        "Is it the coldest day of the year?",
+                        "Tell me the hottest temperature recorded this month.",
+                        "Will it be freezing tonight?",
+                        "How hot will it get this summer?"
+                    ]
+                }
+            ]
+        },
+        "location": {
+            "description": "Intents related to navigation, directions, and location-based inquiries.",
+            "intents": [
+                {
+                    "name": "current_location",
+                    "description": "Recognizes when the user asks about their current location.",
+                    "examples": [
+                        "Where am I?",
+                        "What's my current location?",
+                        "Can you tell me where I am?",
+                        "Find my location.",
+                        "Am I near downtown?"
+                    ]
+                },
+                {
+                    "name": "directions",
+                    "description": "Recognizes when the user asks for directions to a specific location.",
+                    "examples": [
+                        "How do I get to the nearest gas station?",
+                        "Give me directions to Central Park.",
+                        "What's the fastest route home?",
+                        "Show me the way to the airport.",
+                        "Find the shortest path to my destination."
+                    ]
+                },
+                {
+                    "name": "nearby_places",
+                    "description": "Recognizes when the user asks about nearby places.",
+                    "examples": [
+                        "Where's the closest coffee shop?",
+                        "Find a good restaurant near me.",
+                        "Are there any ATMs nearby?",
+                        "Show me nearby hotels.",
+                        "Where's the nearest gas station?"
+                    ]
+                },
+                {
+                    "name": "traffic_updates",
+                    "description": "Recognizes when the user inquires about current traffic conditions.",
+                    "examples": [
+                        "How's the traffic right now?",
+                        "Is there a traffic jam on my way to work?",
+                        "What's the traffic like on the highway?",
+                        "Tell me about road closures.",
+                        "Is there heavy traffic downtown?"
+                    ]
+                },
+                {
+                    "name": "public_transport",
+                    "description": "Recognizes when the user asks about public transportation options.",
+                    "examples": [
+                        "When is the next bus?",
+                        "Find the fastest subway route.",
+                        "What time does the train leave?",
+                        "Tell me the schedule for the metro.",
+                        "Where's the nearest bus stop?"
+                    ]
+                }
+            ]
+        },
+        "event": {
+            "description": "Intents related to news, headlines, and current events inquiries.",
+            "intents": [
+                {
+                    "name": "latest_news",
+                    "description": "Recognizes when the user asks for the latest news.",
+                    "examples": [
+                        "What's the latest news?",
+                        "Tell me today's headlines.",
+                        "Give me the top news stories.",
+                        "Any breaking news today?",
+                        "Update me on current events."
+                    ]
+                },
+                {
+                    "name": "sports_news",
+                    "description": "Recognizes when the user asks for sports-related news.",
+                    "examples": [
+                        "What's the latest in sports?",
+                        "Tell me the latest football scores.",
+                        "Who won the game last night?",
+                        "Give me updates on the NBA.",
+                        "Any news about my favorite team?"
+                    ]
+                },
+                {
+                    "name": "political_news",
+                    "description": "Recognizes when the user asks about political news.",
+                    "examples": [
+                        "What's happening in politics?",
+                        "Tell me the latest government updates.",
+                        "Any news about the election?",
+                        "Give me updates on international relations.",
+                        "What are the current political headlines?"
+                    ]
+                },
+                {
+                    "name": "business_news",
+                    "description": "Recognizes when the user asks about business and financial news.",
+                    "examples": [
+                        "What's new in the stock market?",
+                        "Tell me about the latest business trends.",
+                        "How are the markets performing today?",
+                        "Any major company announcements?",
+                        "Give me updates on cryptocurrency."
+                    ]
+                },
+                {
+                    "name": "entertainment_news",
+                    "description": "Recognizes when the user asks about entertainment and celebrity news.",
+                    "examples": [
+                        "What's new in Hollywood?",
+                        "Tell me the latest celebrity gossip.",
+                        "Any updates on upcoming movies?",
+                        "Who won the Oscars this year?",
+                        "What's trending in the entertainment industry?"
+                    ]
+                }
+            ]
+        },
+        "entertainment": {
+            "description": "Intents related to movies, music, books, and games inquiries.",
+            "intents": [
+                {
+                    "name": "movie_recommendation",
+                    "description": "Recognizes when the user asks for movie recommendations.",
+                    "examples": [
+                        "Can you suggest a good movie?",
+                        "What are some must-watch films?",
+                        "Give me a movie recommendation.",
+                        "What's a popular movie right now?",
+                        "Suggest a film for me."
+                    ]
+                },
+                {
+                    "name": "music_recommendation",
+                    "description": "Recognizes when the user asks for music recommendations.",
+                    "examples": [
+                        "Suggest some good songs to listen to.",
+                        "What are the top songs right now?",
+                        "Can you recommend a music playlist?",
+                        "Tell me some trending music.",
+                        "What are the best songs this week?"
+                    ]
+                },
+                {
+                    "name": "book_recommendation",
+                    "description": "Recognizes when the user asks for book recommendations.",
+                    "examples": [
+                        "Can you suggest a book to read?",
+                        "What are the best books right now?",
+                        "Give me a book recommendation.",
+                        "What's a good book for beginners?",
+                        "Tell me some bestsellers."
+                    ]
+                },
+                {
+                    "name": "game_recommendation",
+                    "description": "Recognizes when the user asks for video game recommendations.",
+                    "examples": [
+                        "What are some popular video games?",
+                        "Suggest a good game to play.",
+                        "Any new game releases?",
+                        "Tell me about the top-rated games.",
+                        "Recommend a game for me."
+                    ]
+                },
+                {
+                    "name": "tv_show_recommendation",
+                    "description": "Recognizes when the user asks for TV show recommendations.",
+                    "examples": [
+                        "What are some trending TV shows?",
+                        "Can you recommend a good series?",
+                        "Tell me about the best TV shows right now.",
+                        "Give me a series to watch.",
+                        "What's a popular TV show these days?"
+                    ]
+                }
+            ]
+        },
+        "organization": {
+            "description": "Intents related to reminders, scheduling, and task management.",
+            "intents": [
+                {
+                    "name": "set_reminder",
+                    "description": "Recognizes when the user wants to set a reminder.",
+                    "examples": [
+                        "Remind me to call mom at 7 PM.",
+                        "Set a reminder for my meeting tomorrow.",
+                        "I need a reminder to buy groceries.",
+                        "Can you remind me about my doctor's appointment?",
+                        "Schedule a reminder for my lunch break."
+                    ]
+                },
+                {
+                    "name": "check_schedule",
+                    "description": "Recognizes when the user wants to check their schedule.",
+                    "examples": [
+                        "What's on my schedule today?",
+                        "Do I have any meetings tomorrow?",
+                        "Show me my agenda for next week.",
+                        "Do I have any plans this evening?",
+                        "What's my calendar like for this month?"
+                    ]
+                },
+                {
+                    "name": "add_task",
+                    "description": "Recognizes when the user wants to add a task to their to-do list.",
+                    "examples": [
+                        "Add 'buy milk' to my to-do list.",
+                        "I need to finish my report by Friday, add it to my tasks.",
+                        "Create a new task: finish project proposal.",
+                        "Can you add 'clean the house' to my task list?",
+                        "I want to set a task for completing my homework."
+                    ]
+                },
+                {
+                    "name": "delete_task",
+                    "description": "Recognizes when the user wants to remove a task from their to-do list.",
+                    "examples": [
+                        "Remove 'buy milk' from my tasks.",
+                        "Delete the task about cleaning the house.",
+                        "Can you take 'finish project proposal' off my list?",
+                        "I completed my homework, remove it from my tasks.",
+                        "Clear my to-do list."
+                    ]
+                },
+                {
+                    "name": "set_timer",
+                    "description": "Recognizes when the user wants to set a timer.",
+                    "examples": [
+                        "Set a timer for 10 minutes.",
+                        "Start a 5-minute countdown.",
+                        "I need a timer for my workout session.",
+                        "Can you time me for 30 minutes?",
+                        "Set a timer to remind me to check the oven."
+                    ]
+                }
+            ]
+        },
+        "shopping": {
+            "description": "Intents related to online shopping, product search, and order management.",
+            "intents": [
+                {
+                    "name": "search_product",
+                    "description": "Recognizes when the user wants to search for a product online.",
+                    "examples": [
+                        "Find me a new laptop.",
+                        "Search for wireless headphones.",
+                        "I need a good pair of running shoes.",
+                        "Look up the best smartphones under $500.",
+                        "Show me popular gaming keyboards."
+                    ]
+                },
+                {
+                    "name": "check_order_status",
+                    "description": "Recognizes when the user wants to check their order status.",
+                    "examples": [
+                        "Where is my package?",
+                        "Check the delivery status of my order.",
+                        "Has my phone been shipped yet?",
+                        "Track my recent Amazon order.",
+                        "When will my shoes arrive?"
+                    ]
+                },
+                {
+                    "name": "add_to_cart",
+                    "description": "Recognizes when the user wants to add an item to their cart.",
+                    "examples": [
+                        "Add this jacket to my shopping cart.",
+                        "Can you put a new phone case in my cart?",
+                        "I want to buy this book, add it to my cart.",
+                        "Add 2 packs of batteries to my order.",
+                        "Put this coffee maker in my cart."
+                    ]
+                },
+                {
+                    "name": "remove_from_cart",
+                    "description": "Recognizes when the user wants to remove an item from their cart.",
+                    "examples": [
+                        "Take the shoes out of my cart.",
+                        "Remove the wireless headphones from my order.",
+                        "Delete the book from my shopping cart.",
+                        "I changed my mind, remove the phone case.",
+                        "Cancel the laptop order from my cart."
+                    ]
+                },
+                {
+                    "name": "apply_discount_code",
+                    "description": "Recognizes when the user wants to apply a discount code.",
+                    "examples": [
+                        "Apply this coupon code to my order.",
+                        "Can I get a discount on this?",
+                        "Use the promo code 'SAVE20'.",
+                        "Add my loyalty discount to the checkout.",
+                        "Apply a student discount if available."
+                    ]
+                }
+            ]
+        },
+        "recipe": {
+            "description": "Intents related to cooking, recipes, and dining out.",
+            "intents": [
+                {
+                    "name": "find_recipe",
+                    "description": "Recognizes when the user wants to search for a recipe.",
+                    "examples": [
+                        "Find a recipe for chocolate cake.",
+                        "How do I make lasagna?",
+                        "Give me a recipe for a healthy smoothie.",
+                        "Show me how to cook chicken curry.",
+                        "Find an easy pasta recipe."
+                    ]
+                },
+                {
+                    "name": "restaurant_suggestions",
+                    "description": "Recognizes when the user wants recommendations for restaurants.",
+                    "examples": [
+                        "Suggest a good sushi place nearby.",
+                        "Where can I get the best burgers in town?",
+                        "Find a vegan restaurant close to me.",
+                        "Any good Italian restaurants around here?",
+                        "Recommend a romantic dinner spot."
+                    ]
+                },
+                {
+                    "name": "cooking_instructions",
+                    "description": "Recognizes when the user wants step-by-step cooking instructions.",
+                    "examples": [
+                        "How do I bake a cake?",
+                        "Give me step-by-step instructions for making bread.",
+                        "What's the best way to cook steak?",
+                        "Teach me how to make homemade pizza.",
+                        "How do I properly chop onions?"
+                    ]
+                },
+                {
+                    "name": "ingredient_substitutions",
+                    "description": "Recognizes when the user wants to substitute an ingredient.",
+                    "examples": [
+                        "What can I use instead of butter?",
+                        "Is there a substitute for eggs in baking?",
+                        "What can I replace sugar with in this recipe?",
+                        "Can I use almond milk instead of regular milk?",
+                        "What's a good alternative to flour?"
+                    ]
+                },
+                {
+                    "name": "food_nutrition",
+                    "description": "Recognizes when the user wants to know nutritional information about food.",
+                    "examples": [
+                        "How many calories are in a banana?",
+                        "What's the protein content in chicken breast?",
+                        "Is avocado good for weight loss?",
+                        "How much sugar is in a can of soda?",
+                        "Give me the nutritional breakdown of almonds."
+                    ]
+                }
+            ]
+        },
+        "health": {
+            "description": "Intents related to health, wellness, and physical fitness.",
+            "intents": [
+                {
+                    "name": "exercise_guidance",
+                    "description": "Recognizes when the user wants exercise advice or workout plans.",
+                    "examples": [
+                        "Give me a workout plan for weight loss.",
+                        "How do I build muscle effectively?",
+                        "Suggest some beginner-friendly yoga routines.",
+                        "What are the best exercises for abs?",
+                        "How often should I do cardio?"
+                    ]
+                },
+                {
+                    "name": "diet_advice",
+                    "description": "Recognizes when the user is looking for dietary recommendations.",
+                    "examples": [
+                        "What diet is best for losing weight?",
+                        "Give me a high-protein meal plan.",
+                        "What foods should I eat for better heart health?",
+                        "Is a keto diet good for me?",
+                        "How do I start intermittent fasting?"
+                    ]
+                },
+                {
+                    "name": "calorie_tracking",
+                    "description": "Recognizes when the user wants to track their calorie intake.",
+                    "examples": [
+                        "How many calories are in a bowl of oatmeal?",
+                        "Track my daily calorie intake.",
+                        "What’s the calorie count of this meal?",
+                        "How many calories should I eat per day?",
+                        "Compare the calories in rice and quinoa."
+                    ]
+                },
+                {
+                    "name": "mental_wellness",
+                    "description": "Recognizes when the user is looking for advice on mental health and well-being.",
+                    "examples": [
+                        "How can I manage stress better?",
+                        "Give me some meditation techniques.",
+                        "What are ways to improve sleep quality?",
+                        "How do I stay motivated to work out?",
+                        "Tips for dealing with anxiety."
+                    ]
+                },
+                {
+                    "name": "hydration_tips",
+                    "description": "Recognizes when the user wants information on staying hydrated.",
+                    "examples": [
+                        "How much water should I drink daily?",
+                        "Is drinking cold water bad for digestion?",
+                        "What are the benefits of staying hydrated?",
+                        "How do I know if I’m dehydrated?",
+                        "Give me tips on drinking more water."
+                    ]
+                }
+            ]
+        },
+        "finance": {
+            "description": "Intents related to financial management, stock prices, and economic trends.",
+            "intents": [
+                {
+                    "name": "stock_prices",
+                    "description": "Recognizes when the user wants to check stock prices.",
+                    "examples": [
+                        "What is the stock price of Apple today?",
+                        "Show me Tesla's stock performance.",
+                        "How did Amazon's stock perform this week?",
+                        "Compare the stock prices of Microsoft and Google.",
+                        "What are the top gaining stocks today?"
+                    ]
+                },
+                {
+                    "name": "currency_exchange",
+                    "description": "Recognizes when the user wants to check currency exchange rates.",
+                    "examples": [
+                        "What is the exchange rate between USD and EUR?",
+                        "Convert 100 dollars to yen.",
+                        "How much is 500 pounds in Canadian dollars?",
+                        "What’s the best time to exchange currency?",
+                        "Show me the historical exchange rates for the past month."
+                    ]
+                },
+                {
+                    "name": "personal_finance",
+                    "description": "Recognizes when the user seeks financial planning and budgeting advice.",
+                    "examples": [
+                        "How do I create a monthly budget?",
+                        "Give me tips on saving money.",
+                        "What’s the best way to manage debt?",
+                        "How much should I save for retirement?",
+                        "What’s the 50/30/20 rule in budgeting?"
+                    ]
+                },
+                {
+                    "name": "investment_advice",
+                    "description": "Recognizes when the user is looking for investment strategies.",
+                    "examples": [
+                        "What are the best investment options for beginners?",
+                        "Is real estate a good investment?",
+                        "How do I start investing in stocks?",
+                        "What are the risks of cryptocurrency investments?",
+                        "Give me tips on long-term investing."
+                    ]
+                },
+                {
+                    "name": "economic_trends",
+                    "description": "Recognizes when the user wants updates on economic trends and financial news.",
+                    "examples": [
+                        "What’s the current inflation rate?",
+                        "How is the job market performing this year?",
+                        "What are the latest trends in global trade?",
+                        "Give me a summary of today’s financial news.",
+                        "What’s the impact of interest rate changes on the economy?"
+                    ]
+                }
+            ]
+        },
+        "technology": {
+            "description": "Intents related to technology news, device troubleshooting, and gadget recommendations.",
+            "intents": [
+                {
+                    "name": "tech_news",
+                    "description": "Recognizes when the user wants updates on the latest technology news.",
+                    "examples": [
+                        "What are the latest trends in AI?",
+                        "Tell me about the newest smartphone releases.",
+                        "What’s happening in the tech industry this week?",
+                        "Show me the latest advancements in quantum computing.",
+                        "What are the biggest technology breakthroughs this year?"
+                    ]
+                },
+                {
+                    "name": "device_troubleshooting",
+                    "description": "Recognizes when the user needs help fixing a tech issue.",
+                    "examples": [
+                        "My laptop won’t turn on, what should I do?",
+                        "Why is my phone battery draining so fast?",
+                        "How do I fix a slow internet connection?",
+                        "My printer is not working, can you help?",
+                        "How do I reset my router?"
+                    ]
+                },
+                {
+                    "name": "gadget_recommendations",
+                    "description": "Recognizes when the user wants suggestions for new tech gadgets.",
+                    "examples": [
+                        "What’s the best smartphone under $500?",
+                        "Recommend a good laptop for gaming.",
+                        "What are the best wireless headphones?",
+                        "Which smartwatch should I buy?",
+                        "Suggest a budget-friendly tablet."
+                    ]
+                },
+                {
+                    "name": "software_guidance",
+                    "description": "Recognizes when the user needs help with software usage and installation.",
+                    "examples": [
+                        "How do I install Windows 11?",
+                        "What’s the best antivirus for my PC?",
+                        "How do I use Photoshop for beginners?",
+                        "Guide me through setting up a VPN.",
+                        "How do I recover deleted files on my Mac?"
+                    ]
+                },
+                {
+                    "name": "emerging_tech",
+                    "description": "Recognizes when the user wants insights on emerging technologies.",
+                    "examples": [
+                        "Tell me about advancements in artificial intelligence.",
+                        "What is the future of blockchain technology?",
+                        "How does 5G impact daily life?",
+                        "What are the potential uses of augmented reality?",
+                        "Explain the benefits of edge computing."
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "description": "Intents related to acquiring knowledge, courses, study tips, and learning resources.",
+            "intents": [
+                {
+                    "name": "course_recommendations",
+                    "description": "Recognizes when the user is looking for educational courses or learning platforms.",
+                    "examples": [
+                        "What are the best online courses for data science?",
+                        "Recommend a good platform to learn programming.",
+                        "Where can I take a free machine learning course?",
+                        "Suggest a good book for learning Python.",
+                        "What are the best resources for self-learning AI?"
+                    ]
+                },
+                {
+                    "name": "study_tips",
+                    "description": "Recognizes when the user is looking for advice on effective studying techniques.",
+                    "examples": [
+                        "How can I improve my concentration while studying?",
+                        "What are the best ways to retain information?",
+                        "Give me some tips for exam preparation.",
+                        "How do I create an effective study schedule?",
+                        "What’s the Pomodoro technique and how can it help me study?"
+                    ]
+                },
+                {
+                    "name": "language_learning",
+                    "description": "Recognizes when the user is looking for help with learning a new language.",
+                    "examples": [
+                        "What’s the best way to learn Spanish quickly?",
+                        "How can I improve my English vocabulary?",
+                        "Suggest an app for learning French.",
+                        "What are some common mistakes in learning German?",
+                        "How do I practice pronunciation in Japanese?"
+                    ]
+                },
+                {
+                    "name": "academic_questions",
+                    "description": "Recognizes when the user is asking subject-specific academic questions.",
+                    "examples": [
+                        "Can you explain Newton’s laws of motion?",
+                        "What is the difference between mitosis and meiosis?",
+                        "How does the Pythagorean theorem work?",
+                        "Tell me about the causes of World War II.",
+                        "Explain the concept of supply and demand."
+                    ]
+                },
+                {
+                    "name": "career_guidance",
+                    "description": "Recognizes when the user needs advice on career choices and education paths.",
+                    "examples": [
+                        "What skills do I need to become a data scientist?",
+                        "Should I pursue a master's degree in AI?",
+                        "What’s the best career path for a software developer?",
+                        "How do I build a strong resume for tech jobs?",
+                        "What are the highest-paying jobs in 2025?"
+                    ]
+                }
+            ]
+        },
+        "travel": {
+            "description": "Intents related to travel planning, famous destinations, and tourism advice.",
+            "intents": [
+                {
+                    "name": "travel_recommendations",
+                    "description": "Recognizes when the user is looking for travel destination suggestions.",
+                    "examples": [
+                        "What are the best places to visit in Europe?",
+                        "Suggest a good vacation spot for families.",
+                        "Where should I go for a tropical getaway?",
+                        "What are the top tourist attractions in Japan?",
+                        "Recommend a hidden gem for travelers."
+                    ]
+                },
+                {
+                    "name": "flight_booking",
+                    "description": "Recognizes when the user wants assistance with booking flights.",
+                    "examples": [
+                        "Find me the cheapest flight to Paris.",
+                        "How do I book a last-minute flight?",
+                        "Compare flight prices for New York next week.",
+                        "What’s the best airline for international travel?",
+                        "Are there any direct flights from London to Dubai?"
+                    ]
+                },
+                {
+                    "name": "hotel_reservations",
+                    "description": "Recognizes when the user is looking for accommodation options.",
+                    "examples": [
+                        "Find me a budget hotel in San Francisco.",
+                        "What are the best-rated resorts in Bali?",
+                        "Can you recommend a luxury hotel in Rome?",
+                        "How do I get discounts on hotel bookings?",
+                        "Are there any pet-friendly hotels in Los Angeles?"
+                    ]
+                },
+                {
+                    "name": "local_attractions",
+                    "description": "Recognizes when the user wants to explore attractions in a location.",
+                    "examples": [
+                        "What are the must-visit places in Barcelona?",
+                        "Tell me about cultural sites in Egypt.",
+                        "Are there any free attractions in Berlin?",
+                        "What’s the best time to visit the Grand Canyon?",
+                        "Give me a list of historical landmarks in London."
+                    ]
+                },
+                {
+                    "name": "travel_tips",
+                    "description": "Recognizes when the user is looking for travel advice and tips.",
+                    "examples": [
+                        "How do I travel on a budget?",
+                        "What are the essential travel items to pack?",
+                        "How can I avoid jet lag?",
+                        "Is it safe to travel alone as a woman?",
+                        "What are the best travel apps for planning a trip?"
+                    ]
+                }
+            ]
+        },
+        "smart": {
+            "description": "Intents related to smart home automation and IoT device control.",
+            "intents": [
+                {
+                    "name": "smart_lighting",
+                    "description": "Recognizes when the user wants to control smart lighting.",
+                    "examples": [
+                        "Turn on the living room lights.",
+                        "Dim the bedroom lights to 50%.",
+                        "Set the kitchen lights to blue.",
+                        "Turn off all the lights before I sleep.",
+                        "Schedule the porch light to turn on at sunset."
+                    ]
+                },
+                {
+                    "name": "smart_thermostat",
+                    "description": "Recognizes when the user wants to control a smart thermostat.",
+                    "examples": [
+                        "Set the thermostat to 72 degrees.",
+                        "Lower the temperature by 3 degrees.",
+                        "Switch the AC to energy-saving mode.",
+                        "Turn off the heating in the living room.",
+                        "What’s the current temperature setting?"
+                    ]
+                },
+                {
+                    "name": "security_system",
+                    "description": "Recognizes when the user wants to manage home security settings.",
+                    "examples": [
+                        "Arm the security system.",
+                        "Disarm the alarm.",
+                        "Lock the front door.",
+                        "Is my garage door closed?",
+                        "Show me the security camera feed."
+                    ]
+                },
+                {
+                    "name": "smart_appliances",
+                    "description": "Recognizes when the user wants to control smart home appliances.",
+                    "examples": [
+                        "Start the robot vacuum.",
+                        "Preheat the oven to 350 degrees.",
+                        "Turn on the coffee machine.",
+                        "Stop the washing machine.",
+                        "What’s the current status of my smart fridge?"
+                    ]
+                },
+                {
+                    "name": "voice_assistant_controls",
+                    "description": "Recognizes when the user wants to control the voice assistant itself.",
+                    "examples": [
+                        "Increase the volume of the assistant.",
+                        "Set my assistant to do not disturb mode.",
+                        "Change the assistant’s voice.",
+                        "What are my available voice commands?",
+                        "Reset the assistant settings."
+                    ]
+                }
+            ]
+        },
+        "computer": {
+            "description": "Intents related to operating a computer, managing files, controlling applications, and system settings.",
+            "intents": [
+                {
+                    "name": "file_management",
+                    "description": "Recognizes commands related to managing files and folders.",
+                    "examples": [
+                        "Open the downloads folder.",
+                        "Delete file named 'report.pdf'.",
+                        "Move 'notes.txt' to the Documents folder.",
+                        "Rename 'image1.jpg' to 'vacation.jpg'.",
+                        "Copy 'project.docx' to the desktop."
+                    ]
+                },
+                {
+                    "name": "application_control",
+                    "description": "Recognizes commands for opening, closing, and switching applications.",
+                    "examples": [
+                        "Open Google Chrome.",
+                        "Close the calculator.",
+                        "Switch to the next window.",
+                        "Minimize all windows.",
+                        "Launch Microsoft Word."
+                    ]
+                },
+                {
+                    "name": "system_settings",
+                    "description": "Recognizes commands for adjusting system settings like brightness, volume, and connectivity.",
+                    "examples": [
+                        "Increase screen brightness.",
+                        "Turn on Wi-Fi.",
+                        "Set volume to 50%.",
+                        "Enable dark mode.",
+                        "Change wallpaper to the default one."
+                    ]
+                },
+                {
+                    "name": "system_information",
+                    "description": "Recognizes queries related to checking system performance and status.",
+                    "examples": [
+                        "How much RAM is being used?",
+                        "What’s my IP address?",
+                        "Is my disk space running low?",
+                        "Show CPU usage statistics.",
+                        "Check battery percentage."
+                    ]
+                },
+                {
+                    "name": "task_automation",
+                    "description": "Recognizes commands for automating tasks and scheduling system operations.",
+                    "examples": [
+                        "Schedule a shutdown at 10 PM.",
+                        "Create a backup of my files.",
+                        "Run the disk cleanup tool.",
+                        "Set an alarm for 7 AM.",
+                        "Automatically clear cache every week."
+                    ]
+                }
+            ]
+        }
+    }
+}
