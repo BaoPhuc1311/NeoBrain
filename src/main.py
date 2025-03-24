@@ -1,17 +1,15 @@
 import json
 import pandas as pd
-import re
 import spacy
-import os
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score, classification_report
 
 nlp = spacy.load("en_core_web_sm")
 
-try:
-    with open("data/human_language.json", "r", encoding="utf-8") as file:
-        data = json.load(file)
-except (FileNotFoundError, json.JSONDecodeError) as e:
-    print(f"Lỗi khi đọc file JSON: {e}")
-    exit()
+with open("data/human_language.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
 
 records = []
 for category, details in data.get("categories", {}).items():
@@ -34,11 +32,20 @@ for category, details in data.get("categories", {}).items():
 df = pd.DataFrame(records)
 df.drop_duplicates(subset=["category", "intent", "example"], inplace=True)
 
-output_path = "data/processed_human_language.json"
-with open(output_path, "w", encoding="utf-8") as outfile:
+with open("data/processed_human_language.json", "w", encoding="utf-8") as outfile:
     json.dump(df.to_dict(orient="records"), outfile, ensure_ascii=False, indent=4)
 
-print(f"Tổng số intent: {df['intent'].nunique()}")
-print(f"Tổng số example: {len(df)}")
-print(f"Các category: {df['category'].unique()}")
-print(df.head())
+X_train, X_test, y_train, y_test = train_test_split(df['example'], df['intent'], test_size=0.2, random_state=42)
+
+vectorizer = TfidfVectorizer()
+X_train_tfidf = vectorizer.fit_transform(X_train)
+X_test_tfidf = vectorizer.transform(X_test)
+
+model = SVC(kernel='linear')
+model.fit(X_train_tfidf, y_train)
+
+y_pred = model.predict(X_test_tfidf)
+
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Độ chính xác: {accuracy:.4f}")
+print(classification_report(y_test, y_pred))
