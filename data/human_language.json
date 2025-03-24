@@ -1,7 +1,7 @@
 {
     "categories": {
-        "conservation": {
-            "description": "Intents related to conversations about environmental conservation and sustainability.",
+        "conversation": {
+            "description": "Intents related to casual conversations.",
             "intents": [
                 {
                     "name": "greeting",

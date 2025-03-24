@@ -1,0 +1,2360 @@
+[
+    {
+        "category": "conversation",
+        "intent": "greeting",
+        "description": "Recognizes when the user greets the virtual assistant",
+        "example": "hello"
+    },
+    {
+        "category": "conversation",
+        "intent": "greeting",
+        "description": "Recognizes when the user greets the virtual assistant",
+        "example": "hey"
+    },
+    {
+        "category": "conversation",
+        "intent": "greeting",
+        "description": "Recognizes when the user greets the virtual assistant",
+        "example": "good morning"
+    },
+    {
+        "category": "conversation",
+        "intent": "greeting",
+        "description": "Recognizes when the user greets the virtual assistant",
+        "example": "hi"
+    },
+    {
+        "category": "conversation",
+        "intent": "greeting",
+        "description": "Recognizes when the user greets the virtual assistant",
+        "example": "hey assistant"
+    },
+    {
+        "category": "conversation",
+        "intent": "goodbye",
+        "description": "Recognizes when the user ends the conversation",
+        "example": "goodbye"
+    },
+    {
+        "category": "conversation",
+        "intent": "goodbye",
+        "description": "Recognizes when the user ends the conversation",
+        "example": "later"
+    },
+    {
+        "category": "conversation",
+        "intent": "goodbye",
+        "description": "Recognizes when the user ends the conversation",
+        "example": "bye nice day"
+    },
+    {
+        "category": "conversation",
+        "intent": "goodbye",
+        "description": "Recognizes when the user ends the conversation",
+        "example": "catch later"
+    },
+    {
+        "category": "conversation",
+        "intent": "goodbye",
+        "description": "Recognizes when the user ends the conversation",
+        "example": "bye"
+    },
+    {
+        "category": "conversation",
+        "intent": "thank_you",
+        "description": "Recognizes when the user expresses gratitude",
+        "example": "thank"
+    },
+    {
+        "category": "conversation",
+        "intent": "thank_you",
+        "description": "Recognizes when the user expresses gratitude",
+        "example": "thank lot"
+    },
+    {
+        "category": "conversation",
+        "intent": "thank_you",
+        "description": "Recognizes when the user expresses gratitude",
+        "example": "appreciate help"
+    },
+    {
+        "category": "conversation",
+        "intent": "thank_you",
+        "description": "Recognizes when the user expresses gratitude",
+        "example": "appreciate"
+    },
+    {
+        "category": "conversation",
+        "intent": "thank_you",
+        "description": "Recognizes when the user expresses gratitude",
+        "example": "thank assistant"
+    },
+    {
+        "category": "conversation",
+        "intent": "apology",
+        "description": "Recognizes when the user apologizes",
+        "example": "sorry"
+    },
+    {
+        "category": "conversation",
+        "intent": "apology",
+        "description": "Recognizes when the user apologizes",
+        "example": "oops bad"
+    },
+    {
+        "category": "conversation",
+        "intent": "apology",
+        "description": "Recognizes when the user apologizes",
+        "example": "mean"
+    },
+    {
+        "category": "conversation",
+        "intent": "apology",
+        "description": "Recognizes when the user apologizes",
+        "example": "apology"
+    },
+    {
+        "category": "conversation",
+        "intent": "affirmation",
+        "description": "Recognizes when the user agrees or confirms",
+        "example": "yes"
+    },
+    {
+        "category": "conversation",
+        "intent": "affirmation",
+        "description": "Recognizes when the user agrees or confirms",
+        "example": "correct"
+    },
+    {
+        "category": "conversation",
+        "intent": "affirmation",
+        "description": "Recognizes when the user agrees or confirms",
+        "example": "agree"
+    },
+    {
+        "category": "conversation",
+        "intent": "affirmation",
+        "description": "Recognizes when the user agrees or confirms",
+        "example": "sure"
+    },
+    {
+        "category": "conversation",
+        "intent": "affirmation",
+        "description": "Recognizes when the user agrees or confirms",
+        "example": "absolutely"
+    },
+    {
+        "category": "conversation",
+        "intent": "negation",
+        "description": "Recognizes when the user disagrees or denies",
+        "example": ""
+    },
+    {
+        "category": "conversation",
+        "intent": "negation",
+        "description": "Recognizes when the user disagrees or denies",
+        "example": "think"
+    },
+    {
+        "category": "conversation",
+        "intent": "negation",
+        "description": "Recognizes when the user disagrees or denies",
+        "example": "way"
+    },
+    {
+        "category": "conversation",
+        "intent": "negation",
+        "description": "Recognizes when the user disagrees or denies",
+        "example": "disagree"
+    },
+    {
+        "category": "conversation",
+        "intent": "unknown",
+        "description": "Handles situations where the assistant does not understand the user's input",
+        "example": "talk"
+    },
+    {
+        "category": "conversation",
+        "intent": "unknown",
+        "description": "Handles situations where the assistant does not understand the user's input",
+        "example": "huh"
+    },
+    {
+        "category": "conversation",
+        "intent": "unknown",
+        "description": "Handles situations where the assistant does not understand the user's input",
+        "example": "understand"
+    },
+    {
+        "category": "conversation",
+        "intent": "unknown",
+        "description": "Handles situations where the assistant does not understand the user's input",
+        "example": "repeat"
+    },
+    {
+        "category": "conversation",
+        "intent": "unknown",
+        "description": "Handles situations where the assistant does not understand the user's input",
+        "example": "idea mean"
+    },
+    {
+        "category": "weather",
+        "intent": "current_weather",
+        "description": "Recognizes when the user asks about the current weather conditions.",
+        "example": "weather like today"
+    },
+    {
+        "category": "weather",
+        "intent": "current_weather",
+        "description": "Recognizes when the user asks about the current weather conditions.",
+        "example": "rain right"
+    },
+    {
+        "category": "weather",
+        "intent": "current_weather",
+        "description": "Recognizes when the user asks about the current weather conditions.",
+        "example": "weather new york"
+    },
+    {
+        "category": "weather",
+        "intent": "current_weather",
+        "description": "Recognizes when the user asks about the current weather conditions.",
+        "example": "tell today weather forecast"
+    },
+    {
+        "category": "weather",
+        "intent": "current_weather",
+        "description": "Recognizes when the user asks about the current weather conditions.",
+        "example": "sunny outside"
+    },
+    {
+        "category": "weather",
+        "intent": "weather_forecast",
+        "description": "Recognizes when the user inquires about future weather conditions.",
+        "example": "weather like tomorrow"
+    },
+    {
+        "category": "weather",
+        "intent": "weather_forecast",
+        "description": "Recognizes when the user inquires about future weather conditions.",
+        "example": "rain weekend"
+    },
+    {
+        "category": "weather",
+        "intent": "weather_forecast",
+        "description": "Recognizes when the user inquires about future weather conditions.",
+        "example": "7 day forecast"
+    },
+    {
+        "category": "weather",
+        "intent": "weather_forecast",
+        "description": "Recognizes when the user inquires about future weather conditions.",
+        "example": "go cold week"
+    },
+    {
+        "category": "weather",
+        "intent": "weather_forecast",
+        "description": "Recognizes when the user inquires about future weather conditions.",
+        "example": "snow christmas"
+    },
+    {
+        "category": "weather",
+        "intent": "air_quality",
+        "description": "Recognizes when the user asks about air quality levels.",
+        "example": "air quality today"
+    },
+    {
+        "category": "weather",
+        "intent": "air_quality",
+        "description": "Recognizes when the user asks about air quality levels.",
+        "example": "safe outside"
+    },
+    {
+        "category": "weather",
+        "intent": "air_quality",
+        "description": "Recognizes when the user asks about air quality levels.",
+        "example": "pollution level city"
+    },
+    {
+        "category": "weather",
+        "intent": "air_quality",
+        "description": "Recognizes when the user asks about air quality levels.",
+        "example": "tell aqi index"
+    },
+    {
+        "category": "weather",
+        "intent": "air_quality",
+        "description": "Recognizes when the user asks about air quality levels.",
+        "example": "air clean today"
+    },
+    {
+        "category": "weather",
+        "intent": "storm_alerts",
+        "description": "Recognizes when the user inquires about storm warnings or severe weather alerts.",
+        "example": "storm warning today"
+    },
+    {
+        "category": "weather",
+        "intent": "storm_alerts",
+        "description": "Recognizes when the user inquires about storm warnings or severe weather alerts.",
+        "example": "hurricane come"
+    },
+    {
+        "category": "weather",
+        "intent": "storm_alerts",
+        "description": "Recognizes when the user inquires about storm warnings or severe weather alerts.",
+        "example": "tell severe weather alert"
+    },
+    {
+        "category": "weather",
+        "intent": "storm_alerts",
+        "description": "Recognizes when the user inquires about storm warnings or severe weather alerts.",
+        "example": "prepare thunderstorm"
+    },
+    {
+        "category": "weather",
+        "intent": "storm_alerts",
+        "description": "Recognizes when the user inquires about storm warnings or severe weather alerts.",
+        "example": "tornado watch"
+    },
+    {
+        "category": "weather",
+        "intent": "humidity_levels",
+        "description": "Recognizes when the user asks about humidity levels.",
+        "example": "humidity today"
+    },
+    {
+        "category": "weather",
+        "intent": "humidity_levels",
+        "description": "Recognizes when the user asks about humidity levels.",
+        "example": "humid outside"
+    },
+    {
+        "category": "weather",
+        "intent": "humidity_levels",
+        "description": "Recognizes when the user asks about humidity levels.",
+        "example": "tell humidity level right"
+    },
+    {
+        "category": "weather",
+        "intent": "humidity_levels",
+        "description": "Recognizes when the user asks about humidity levels.",
+        "example": "dry air today"
+    },
+    {
+        "category": "weather",
+        "intent": "humidity_levels",
+        "description": "Recognizes when the user asks about humidity levels.",
+        "example": "humidity high tomorrow"
+    },
+    {
+        "category": "weather",
+        "intent": "sunrise_sunset",
+        "description": "Recognizes when the user asks about sunrise and sunset times.",
+        "example": "time sun rise"
+    },
+    {
+        "category": "weather",
+        "intent": "sunrise_sunset",
+        "description": "Recognizes when the user asks about sunrise and sunset times.",
+        "example": "sun set today"
+    },
+    {
+        "category": "weather",
+        "intent": "sunrise_sunset",
+        "description": "Recognizes when the user asks about sunrise and sunset times.",
+        "example": "tell sunrise sunset time tomorrow"
+    },
+    {
+        "category": "weather",
+        "intent": "sunrise_sunset",
+        "description": "Recognizes when the user asks about sunrise and sunset times.",
+        "example": "sunset time new york"
+    },
+    {
+        "category": "weather",
+        "intent": "sunrise_sunset",
+        "description": "Recognizes when the user asks about sunrise and sunset times.",
+        "example": "sunset early week"
+    },
+    {
+        "category": "weather",
+        "intent": "temperature_extremes",
+        "description": "Recognizes when the user asks about extreme temperatures.",
+        "example": "high temperature today"
+    },
+    {
+        "category": "weather",
+        "intent": "temperature_extremes",
+        "description": "Recognizes when the user asks about extreme temperatures.",
+        "example": "cold day year"
+    },
+    {
+        "category": "weather",
+        "intent": "temperature_extremes",
+        "description": "Recognizes when the user asks about extreme temperatures.",
+        "example": "tell hot temperature record month"
+    },
+    {
+        "category": "weather",
+        "intent": "temperature_extremes",
+        "description": "Recognizes when the user asks about extreme temperatures.",
+        "example": "freeze tonight"
+    },
+    {
+        "category": "weather",
+        "intent": "temperature_extremes",
+        "description": "Recognizes when the user asks about extreme temperatures.",
+        "example": "hot summer"
+    },
+    {
+        "category": "location",
+        "intent": "current_location",
+        "description": "Recognizes when the user asks about their current location.",
+        "example": ""
+    },
+    {
+        "category": "location",
+        "intent": "current_location",
+        "description": "Recognizes when the user asks about their current location.",
+        "example": "current location"
+    },
+    {
+        "category": "location",
+        "intent": "current_location",
+        "description": "Recognizes when the user asks about their current location.",
+        "example": "tell"
+    },
+    {
+        "category": "location",
+        "intent": "current_location",
+        "description": "Recognizes when the user asks about their current location.",
+        "example": "find location"
+    },
+    {
+        "category": "location",
+        "intent": "current_location",
+        "description": "Recognizes when the user asks about their current location.",
+        "example": "near downtown"
+    },
+    {
+        "category": "location",
+        "intent": "directions",
+        "description": "Recognizes when the user asks for directions to a specific location.",
+        "example": "near gas station"
+    },
+    {
+        "category": "location",
+        "intent": "directions",
+        "description": "Recognizes when the user asks for directions to a specific location.",
+        "example": "direction central park"
+    },
+    {
+        "category": "location",
+        "intent": "directions",
+        "description": "Recognizes when the user asks for directions to a specific location.",
+        "example": "fast route home"
+    },
+    {
+        "category": "location",
+        "intent": "directions",
+        "description": "Recognizes when the user asks for directions to a specific location.",
+        "example": "way airport"
+    },
+    {
+        "category": "location",
+        "intent": "directions",
+        "description": "Recognizes when the user asks for directions to a specific location.",
+        "example": "find short path destination"
+    },
+    {
+        "category": "location",
+        "intent": "nearby_places",
+        "description": "Recognizes when the user asks about nearby places.",
+        "example": "close coffee shop"
+    },
+    {
+        "category": "location",
+        "intent": "nearby_places",
+        "description": "Recognizes when the user asks about nearby places.",
+        "example": "find good restaurant near"
+    },
+    {
+        "category": "location",
+        "intent": "nearby_places",
+        "description": "Recognizes when the user asks about nearby places.",
+        "example": "atms nearby"
+    },
+    {
+        "category": "location",
+        "intent": "nearby_places",
+        "description": "Recognizes when the user asks about nearby places.",
+        "example": "nearby hotel"
+    },
+    {
+        "category": "location",
+        "intent": "nearby_places",
+        "description": "Recognizes when the user asks about nearby places.",
+        "example": "near gas station"
+    },
+    {
+        "category": "location",
+        "intent": "traffic_updates",
+        "description": "Recognizes when the user inquires about current traffic conditions.",
+        "example": "traffic right"
+    },
+    {
+        "category": "location",
+        "intent": "traffic_updates",
+        "description": "Recognizes when the user inquires about current traffic conditions.",
+        "example": "traffic jam way work"
+    },
+    {
+        "category": "location",
+        "intent": "traffic_updates",
+        "description": "Recognizes when the user inquires about current traffic conditions.",
+        "example": "traffic like highway"
+    },
+    {
+        "category": "location",
+        "intent": "traffic_updates",
+        "description": "Recognizes when the user inquires about current traffic conditions.",
+        "example": "tell road closure"
+    },
+    {
+        "category": "location",
+        "intent": "traffic_updates",
+        "description": "Recognizes when the user inquires about current traffic conditions.",
+        "example": "heavy traffic downtown"
+    },
+    {
+        "category": "location",
+        "intent": "public_transport",
+        "description": "Recognizes when the user asks about public transportation options.",
+        "example": "bus"
+    },
+    {
+        "category": "location",
+        "intent": "public_transport",
+        "description": "Recognizes when the user asks about public transportation options.",
+        "example": "find fast subway route"
+    },
+    {
+        "category": "location",
+        "intent": "public_transport",
+        "description": "Recognizes when the user asks about public transportation options.",
+        "example": "time train leave"
+    },
+    {
+        "category": "location",
+        "intent": "public_transport",
+        "description": "Recognizes when the user asks about public transportation options.",
+        "example": "tell schedule metro"
+    },
+    {
+        "category": "location",
+        "intent": "public_transport",
+        "description": "Recognizes when the user asks about public transportation options.",
+        "example": "near bus stop"
+    },
+    {
+        "category": "event",
+        "intent": "latest_news",
+        "description": "Recognizes when the user asks for the latest news.",
+        "example": "late news"
+    },
+    {
+        "category": "event",
+        "intent": "latest_news",
+        "description": "Recognizes when the user asks for the latest news.",
+        "example": "tell today headline"
+    },
+    {
+        "category": "event",
+        "intent": "latest_news",
+        "description": "Recognizes when the user asks for the latest news.",
+        "example": "news story"
+    },
+    {
+        "category": "event",
+        "intent": "latest_news",
+        "description": "Recognizes when the user asks for the latest news.",
+        "example": "break news today"
+    },
+    {
+        "category": "event",
+        "intent": "latest_news",
+        "description": "Recognizes when the user asks for the latest news.",
+        "example": "update current event"
+    },
+    {
+        "category": "event",
+        "intent": "sports_news",
+        "description": "Recognizes when the user asks for sports-related news.",
+        "example": "late sport"
+    },
+    {
+        "category": "event",
+        "intent": "sports_news",
+        "description": "Recognizes when the user asks for sports-related news.",
+        "example": "tell late football score"
+    },
+    {
+        "category": "event",
+        "intent": "sports_news",
+        "description": "Recognizes when the user asks for sports-related news.",
+        "example": "win game night"
+    },
+    {
+        "category": "event",
+        "intent": "sports_news",
+        "description": "Recognizes when the user asks for sports-related news.",
+        "example": "update nba"
+    },
+    {
+        "category": "event",
+        "intent": "sports_news",
+        "description": "Recognizes when the user asks for sports-related news.",
+        "example": "news favorite team"
+    },
+    {
+        "category": "event",
+        "intent": "political_news",
+        "description": "Recognizes when the user asks about political news.",
+        "example": "happen politic"
+    },
+    {
+        "category": "event",
+        "intent": "political_news",
+        "description": "Recognizes when the user asks about political news.",
+        "example": "tell late government update"
+    },
+    {
+        "category": "event",
+        "intent": "political_news",
+        "description": "Recognizes when the user asks about political news.",
+        "example": "news election"
+    },
+    {
+        "category": "event",
+        "intent": "political_news",
+        "description": "Recognizes when the user asks about political news.",
+        "example": "update international relation"
+    },
+    {
+        "category": "event",
+        "intent": "political_news",
+        "description": "Recognizes when the user asks about political news.",
+        "example": "current political headline"
+    },
+    {
+        "category": "event",
+        "intent": "business_news",
+        "description": "Recognizes when the user asks about business and financial news.",
+        "example": "new stock market"
+    },
+    {
+        "category": "event",
+        "intent": "business_news",
+        "description": "Recognizes when the user asks about business and financial news.",
+        "example": "tell late business trend"
+    },
+    {
+        "category": "event",
+        "intent": "business_news",
+        "description": "Recognizes when the user asks about business and financial news.",
+        "example": "market perform today"
+    },
+    {
+        "category": "event",
+        "intent": "business_news",
+        "description": "Recognizes when the user asks about business and financial news.",
+        "example": "major company announcement"
+    },
+    {
+        "category": "event",
+        "intent": "business_news",
+        "description": "Recognizes when the user asks about business and financial news.",
+        "example": "update cryptocurrency"
+    },
+    {
+        "category": "event",
+        "intent": "entertainment_news",
+        "description": "Recognizes when the user asks about entertainment and celebrity news.",
+        "example": "new hollywood"
+    },
+    {
+        "category": "event",
+        "intent": "entertainment_news",
+        "description": "Recognizes when the user asks about entertainment and celebrity news.",
+        "example": "tell late celebrity gossip"
+    },
+    {
+        "category": "event",
+        "intent": "entertainment_news",
+        "description": "Recognizes when the user asks about entertainment and celebrity news.",
+        "example": "update upcoming movie"
+    },
+    {
+        "category": "event",
+        "intent": "entertainment_news",
+        "description": "Recognizes when the user asks about entertainment and celebrity news.",
+        "example": "win oscar year"
+    },
+    {
+        "category": "event",
+        "intent": "entertainment_news",
+        "description": "Recognizes when the user asks about entertainment and celebrity news.",
+        "example": "trend entertainment industry"
+    },
+    {
+        "category": "entertainment",
+        "intent": "movie_recommendation",
+        "description": "Recognizes when the user asks for movie recommendations.",
+        "example": "suggest good movie"
+    },
+    {
+        "category": "entertainment",
+        "intent": "movie_recommendation",
+        "description": "Recognizes when the user asks for movie recommendations.",
+        "example": "watch film"
+    },
+    {
+        "category": "entertainment",
+        "intent": "movie_recommendation",
+        "description": "Recognizes when the user asks for movie recommendations.",
+        "example": "movie recommendation"
+    },
+    {
+        "category": "entertainment",
+        "intent": "movie_recommendation",
+        "description": "Recognizes when the user asks for movie recommendations.",
+        "example": "popular movie right"
+    },
+    {
+        "category": "entertainment",
+        "intent": "movie_recommendation",
+        "description": "Recognizes when the user asks for movie recommendations.",
+        "example": "suggest film"
+    },
+    {
+        "category": "entertainment",
+        "intent": "music_recommendation",
+        "description": "Recognizes when the user asks for music recommendations.",
+        "example": "suggest good song listen"
+    },
+    {
+        "category": "entertainment",
+        "intent": "music_recommendation",
+        "description": "Recognizes when the user asks for music recommendations.",
+        "example": "song right"
+    },
+    {
+        "category": "entertainment",
+        "intent": "music_recommendation",
+        "description": "Recognizes when the user asks for music recommendations.",
+        "example": "recommend music playlist"
+    },
+    {
+        "category": "entertainment",
+        "intent": "music_recommendation",
+        "description": "Recognizes when the user asks for music recommendations.",
+        "example": "tell trend music"
+    },
+    {
+        "category": "entertainment",
+        "intent": "music_recommendation",
+        "description": "Recognizes when the user asks for music recommendations.",
+        "example": "good song week"
+    },
+    {
+        "category": "entertainment",
+        "intent": "book_recommendation",
+        "description": "Recognizes when the user asks for book recommendations.",
+        "example": "suggest book read"
+    },
+    {
+        "category": "entertainment",
+        "intent": "book_recommendation",
+        "description": "Recognizes when the user asks for book recommendations.",
+        "example": "good book right"
+    },
+    {
+        "category": "entertainment",
+        "intent": "book_recommendation",
+        "description": "Recognizes when the user asks for book recommendations.",
+        "example": "book recommendation"
+    },
+    {
+        "category": "entertainment",
+        "intent": "book_recommendation",
+        "description": "Recognizes when the user asks for book recommendations.",
+        "example": "good book beginner"
+    },
+    {
+        "category": "entertainment",
+        "intent": "book_recommendation",
+        "description": "Recognizes when the user asks for book recommendations.",
+        "example": "tell bestseller"
+    },
+    {
+        "category": "entertainment",
+        "intent": "game_recommendation",
+        "description": "Recognizes when the user asks for video game recommendations.",
+        "example": "popular video game"
+    },
+    {
+        "category": "entertainment",
+        "intent": "game_recommendation",
+        "description": "Recognizes when the user asks for video game recommendations.",
+        "example": "suggest good game play"
+    },
+    {
+        "category": "entertainment",
+        "intent": "game_recommendation",
+        "description": "Recognizes when the user asks for video game recommendations.",
+        "example": "new game release"
+    },
+    {
+        "category": "entertainment",
+        "intent": "game_recommendation",
+        "description": "Recognizes when the user asks for video game recommendations.",
+        "example": "tell rate game"
+    },
+    {
+        "category": "entertainment",
+        "intent": "game_recommendation",
+        "description": "Recognizes when the user asks for video game recommendations.",
+        "example": "recommend game"
+    },
+    {
+        "category": "entertainment",
+        "intent": "tv_show_recommendation",
+        "description": "Recognizes when the user asks for TV show recommendations.",
+        "example": "trend tv show"
+    },
+    {
+        "category": "entertainment",
+        "intent": "tv_show_recommendation",
+        "description": "Recognizes when the user asks for TV show recommendations.",
+        "example": "recommend good series"
+    },
+    {
+        "category": "entertainment",
+        "intent": "tv_show_recommendation",
+        "description": "Recognizes when the user asks for TV show recommendations.",
+        "example": "tell good tv show right"
+    },
+    {
+        "category": "entertainment",
+        "intent": "tv_show_recommendation",
+        "description": "Recognizes when the user asks for TV show recommendations.",
+        "example": "series watch"
+    },
+    {
+        "category": "entertainment",
+        "intent": "tv_show_recommendation",
+        "description": "Recognizes when the user asks for TV show recommendations.",
+        "example": "popular tv day"
+    },
+    {
+        "category": "organization",
+        "intent": "set_reminder",
+        "description": "Recognizes when the user wants to set a reminder.",
+        "example": "remind mom 7 pm"
+    },
+    {
+        "category": "organization",
+        "intent": "set_reminder",
+        "description": "Recognizes when the user wants to set a reminder.",
+        "example": "set reminder meeting tomorrow"
+    },
+    {
+        "category": "organization",
+        "intent": "set_reminder",
+        "description": "Recognizes when the user wants to set a reminder.",
+        "example": "need reminder buy grocery"
+    },
+    {
+        "category": "organization",
+        "intent": "set_reminder",
+        "description": "Recognizes when the user wants to set a reminder.",
+        "example": "remind doctor appointment"
+    },
+    {
+        "category": "organization",
+        "intent": "set_reminder",
+        "description": "Recognizes when the user wants to set a reminder.",
+        "example": "schedule reminder lunch break"
+    },
+    {
+        "category": "organization",
+        "intent": "check_schedule",
+        "description": "Recognizes when the user wants to check their schedule.",
+        "example": "schedule today"
+    },
+    {
+        "category": "organization",
+        "intent": "check_schedule",
+        "description": "Recognizes when the user wants to check their schedule.",
+        "example": "meeting tomorrow"
+    },
+    {
+        "category": "organization",
+        "intent": "check_schedule",
+        "description": "Recognizes when the user wants to check their schedule.",
+        "example": "agenda week"
+    },
+    {
+        "category": "organization",
+        "intent": "check_schedule",
+        "description": "Recognizes when the user wants to check their schedule.",
+        "example": "plan evening"
+    },
+    {
+        "category": "organization",
+        "intent": "check_schedule",
+        "description": "Recognizes when the user wants to check their schedule.",
+        "example": "calendar like month"
+    },
+    {
+        "category": "organization",
+        "intent": "add_task",
+        "description": "Recognizes when the user wants to add a task to their to-do list.",
+        "example": "add buy milk list"
+    },
+    {
+        "category": "organization",
+        "intent": "add_task",
+        "description": "Recognizes when the user wants to add a task to their to-do list.",
+        "example": "need finish report friday add task"
+    },
+    {
+        "category": "organization",
+        "intent": "add_task",
+        "description": "Recognizes when the user wants to add a task to their to-do list.",
+        "example": "create new task finish project proposal"
+    },
+    {
+        "category": "organization",
+        "intent": "add_task",
+        "description": "Recognizes when the user wants to add a task to their to-do list.",
+        "example": "add clean house task list"
+    },
+    {
+        "category": "organization",
+        "intent": "add_task",
+        "description": "Recognizes when the user wants to add a task to their to-do list.",
+        "example": "want set task complete homework"
+    },
+    {
+        "category": "organization",
+        "intent": "delete_task",
+        "description": "Recognizes when the user wants to remove a task from their to-do list.",
+        "example": "remove buy milk task"
+    },
+    {
+        "category": "organization",
+        "intent": "delete_task",
+        "description": "Recognizes when the user wants to remove a task from their to-do list.",
+        "example": "delete task clean house"
+    },
+    {
+        "category": "organization",
+        "intent": "delete_task",
+        "description": "Recognizes when the user wants to remove a task from their to-do list.",
+        "example": "finish project proposal list"
+    },
+    {
+        "category": "organization",
+        "intent": "delete_task",
+        "description": "Recognizes when the user wants to remove a task from their to-do list.",
+        "example": "complete homework remove task"
+    },
+    {
+        "category": "organization",
+        "intent": "delete_task",
+        "description": "Recognizes when the user wants to remove a task from their to-do list.",
+        "example": "clear list"
+    },
+    {
+        "category": "organization",
+        "intent": "set_timer",
+        "description": "Recognizes when the user wants to set a timer.",
+        "example": "set timer 10 minute"
+    },
+    {
+        "category": "organization",
+        "intent": "set_timer",
+        "description": "Recognizes when the user wants to set a timer.",
+        "example": "start 5 minute countdown"
+    },
+    {
+        "category": "organization",
+        "intent": "set_timer",
+        "description": "Recognizes when the user wants to set a timer.",
+        "example": "need timer workout session"
+    },
+    {
+        "category": "organization",
+        "intent": "set_timer",
+        "description": "Recognizes when the user wants to set a timer.",
+        "example": "time 30 minute"
+    },
+    {
+        "category": "organization",
+        "intent": "set_timer",
+        "description": "Recognizes when the user wants to set a timer.",
+        "example": "set timer remind check oven"
+    },
+    {
+        "category": "shopping",
+        "intent": "search_product",
+        "description": "Recognizes when the user wants to search for a product online.",
+        "example": "find new laptop"
+    },
+    {
+        "category": "shopping",
+        "intent": "search_product",
+        "description": "Recognizes when the user wants to search for a product online.",
+        "example": "search wireless headphone"
+    },
+    {
+        "category": "shopping",
+        "intent": "search_product",
+        "description": "Recognizes when the user wants to search for a product online.",
+        "example": "need good pair running shoe"
+    },
+    {
+        "category": "shopping",
+        "intent": "search_product",
+        "description": "Recognizes when the user wants to search for a product online.",
+        "example": "look good smartphone $ 500"
+    },
+    {
+        "category": "shopping",
+        "intent": "search_product",
+        "description": "Recognizes when the user wants to search for a product online.",
+        "example": "popular gaming keyboard"
+    },
+    {
+        "category": "shopping",
+        "intent": "check_order_status",
+        "description": "Recognizes when the user wants to check their order status.",
+        "example": "package"
+    },
+    {
+        "category": "shopping",
+        "intent": "check_order_status",
+        "description": "Recognizes when the user wants to check their order status.",
+        "example": "check delivery status order"
+    },
+    {
+        "category": "shopping",
+        "intent": "check_order_status",
+        "description": "Recognizes when the user wants to check their order status.",
+        "example": "phone ship"
+    },
+    {
+        "category": "shopping",
+        "intent": "check_order_status",
+        "description": "Recognizes when the user wants to check their order status.",
+        "example": "track recent amazon order"
+    },
+    {
+        "category": "shopping",
+        "intent": "check_order_status",
+        "description": "Recognizes when the user wants to check their order status.",
+        "example": "shoe arrive"
+    },
+    {
+        "category": "shopping",
+        "intent": "add_to_cart",
+        "description": "Recognizes when the user wants to add an item to their cart.",
+        "example": "add jacket shopping cart"
+    },
+    {
+        "category": "shopping",
+        "intent": "add_to_cart",
+        "description": "Recognizes when the user wants to add an item to their cart.",
+        "example": "new phone case cart"
+    },
+    {
+        "category": "shopping",
+        "intent": "add_to_cart",
+        "description": "Recognizes when the user wants to add an item to their cart.",
+        "example": "want buy book add cart"
+    },
+    {
+        "category": "shopping",
+        "intent": "add_to_cart",
+        "description": "Recognizes when the user wants to add an item to their cart.",
+        "example": "add 2 pack battery order"
+    },
+    {
+        "category": "shopping",
+        "intent": "add_to_cart",
+        "description": "Recognizes when the user wants to add an item to their cart.",
+        "example": "coffee maker cart"
+    },
+    {
+        "category": "shopping",
+        "intent": "remove_from_cart",
+        "description": "Recognizes when the user wants to remove an item from their cart.",
+        "example": "shoe cart"
+    },
+    {
+        "category": "shopping",
+        "intent": "remove_from_cart",
+        "description": "Recognizes when the user wants to remove an item from their cart.",
+        "example": "remove wireless headphone order"
+    },
+    {
+        "category": "shopping",
+        "intent": "remove_from_cart",
+        "description": "Recognizes when the user wants to remove an item from their cart.",
+        "example": "delete book shopping cart"
+    },
+    {
+        "category": "shopping",
+        "intent": "remove_from_cart",
+        "description": "Recognizes when the user wants to remove an item from their cart.",
+        "example": "change mind remove phone case"
+    },
+    {
+        "category": "shopping",
+        "intent": "remove_from_cart",
+        "description": "Recognizes when the user wants to remove an item from their cart.",
+        "example": "cancel laptop order cart"
+    },
+    {
+        "category": "shopping",
+        "intent": "apply_discount_code",
+        "description": "Recognizes when the user wants to apply a discount code.",
+        "example": "apply coupon code order"
+    },
+    {
+        "category": "shopping",
+        "intent": "apply_discount_code",
+        "description": "Recognizes when the user wants to apply a discount code.",
+        "example": "discount"
+    },
+    {
+        "category": "shopping",
+        "intent": "apply_discount_code",
+        "description": "Recognizes when the user wants to apply a discount code.",
+        "example": "use promo code save20"
+    },
+    {
+        "category": "shopping",
+        "intent": "apply_discount_code",
+        "description": "Recognizes when the user wants to apply a discount code.",
+        "example": "add loyalty discount checkout"
+    },
+    {
+        "category": "shopping",
+        "intent": "apply_discount_code",
+        "description": "Recognizes when the user wants to apply a discount code.",
+        "example": "apply student discount available"
+    },
+    {
+        "category": "recipe",
+        "intent": "find_recipe",
+        "description": "Recognizes when the user wants to search for a recipe.",
+        "example": "find recipe chocolate cake"
+    },
+    {
+        "category": "recipe",
+        "intent": "find_recipe",
+        "description": "Recognizes when the user wants to search for a recipe.",
+        "example": "lasagna"
+    },
+    {
+        "category": "recipe",
+        "intent": "find_recipe",
+        "description": "Recognizes when the user wants to search for a recipe.",
+        "example": "recipe healthy smoothie"
+    },
+    {
+        "category": "recipe",
+        "intent": "find_recipe",
+        "description": "Recognizes when the user wants to search for a recipe.",
+        "example": "cook chicken curry"
+    },
+    {
+        "category": "recipe",
+        "intent": "find_recipe",
+        "description": "Recognizes when the user wants to search for a recipe.",
+        "example": "find easy pasta recipe"
+    },
+    {
+        "category": "recipe",
+        "intent": "restaurant_suggestions",
+        "description": "Recognizes when the user wants recommendations for restaurants.",
+        "example": "suggest good sushi place nearby"
+    },
+    {
+        "category": "recipe",
+        "intent": "restaurant_suggestions",
+        "description": "Recognizes when the user wants recommendations for restaurants.",
+        "example": "good burger town"
+    },
+    {
+        "category": "recipe",
+        "intent": "restaurant_suggestions",
+        "description": "Recognizes when the user wants recommendations for restaurants.",
+        "example": "find vegan restaurant close"
+    },
+    {
+        "category": "recipe",
+        "intent": "restaurant_suggestions",
+        "description": "Recognizes when the user wants recommendations for restaurants.",
+        "example": "good italian restaurant"
+    },
+    {
+        "category": "recipe",
+        "intent": "restaurant_suggestions",
+        "description": "Recognizes when the user wants recommendations for restaurants.",
+        "example": "recommend romantic dinner spot"
+    },
+    {
+        "category": "recipe",
+        "intent": "cooking_instructions",
+        "description": "Recognizes when the user wants step-by-step cooking instructions.",
+        "example": "bake cake"
+    },
+    {
+        "category": "recipe",
+        "intent": "cooking_instructions",
+        "description": "Recognizes when the user wants step-by-step cooking instructions.",
+        "example": "step step instruction make bread"
+    },
+    {
+        "category": "recipe",
+        "intent": "cooking_instructions",
+        "description": "Recognizes when the user wants step-by-step cooking instructions.",
+        "example": "good way cook steak"
+    },
+    {
+        "category": "recipe",
+        "intent": "cooking_instructions",
+        "description": "Recognizes when the user wants step-by-step cooking instructions.",
+        "example": "teach homemade pizza"
+    },
+    {
+        "category": "recipe",
+        "intent": "cooking_instructions",
+        "description": "Recognizes when the user wants step-by-step cooking instructions.",
+        "example": "properly chop onion"
+    },
+    {
+        "category": "recipe",
+        "intent": "ingredient_substitutions",
+        "description": "Recognizes when the user wants to substitute an ingredient.",
+        "example": "use instead butter"
+    },
+    {
+        "category": "recipe",
+        "intent": "ingredient_substitutions",
+        "description": "Recognizes when the user wants to substitute an ingredient.",
+        "example": "substitute egg bake"
+    },
+    {
+        "category": "recipe",
+        "intent": "ingredient_substitutions",
+        "description": "Recognizes when the user wants to substitute an ingredient.",
+        "example": "replace sugar recipe"
+    },
+    {
+        "category": "recipe",
+        "intent": "ingredient_substitutions",
+        "description": "Recognizes when the user wants to substitute an ingredient.",
+        "example": "use almond milk instead regular milk"
+    },
+    {
+        "category": "recipe",
+        "intent": "ingredient_substitutions",
+        "description": "Recognizes when the user wants to substitute an ingredient.",
+        "example": "good alternative flour"
+    },
+    {
+        "category": "recipe",
+        "intent": "food_nutrition",
+        "description": "Recognizes when the user wants to know nutritional information about food.",
+        "example": "calorie banana"
+    },
+    {
+        "category": "recipe",
+        "intent": "food_nutrition",
+        "description": "Recognizes when the user wants to know nutritional information about food.",
+        "example": "protein content chicken breast"
+    },
+    {
+        "category": "recipe",
+        "intent": "food_nutrition",
+        "description": "Recognizes when the user wants to know nutritional information about food.",
+        "example": "avocado good weight loss"
+    },
+    {
+        "category": "recipe",
+        "intent": "food_nutrition",
+        "description": "Recognizes when the user wants to know nutritional information about food.",
+        "example": "sugar soda"
+    },
+    {
+        "category": "recipe",
+        "intent": "food_nutrition",
+        "description": "Recognizes when the user wants to know nutritional information about food.",
+        "example": "nutritional breakdown almond"
+    },
+    {
+        "category": "health",
+        "intent": "exercise_guidance",
+        "description": "Recognizes when the user wants exercise advice or workout plans.",
+        "example": "workout plan weight loss"
+    },
+    {
+        "category": "health",
+        "intent": "exercise_guidance",
+        "description": "Recognizes when the user wants exercise advice or workout plans.",
+        "example": "build muscle effectively"
+    },
+    {
+        "category": "health",
+        "intent": "exercise_guidance",
+        "description": "Recognizes when the user wants exercise advice or workout plans.",
+        "example": "suggest beginner friendly yoga routine"
+    },
+    {
+        "category": "health",
+        "intent": "exercise_guidance",
+        "description": "Recognizes when the user wants exercise advice or workout plans.",
+        "example": "good exercise ab"
+    },
+    {
+        "category": "health",
+        "intent": "exercise_guidance",
+        "description": "Recognizes when the user wants exercise advice or workout plans.",
+        "example": "cardio"
+    },
+    {
+        "category": "health",
+        "intent": "diet_advice",
+        "description": "Recognizes when the user is looking for dietary recommendations.",
+        "example": "diet good lose weight"
+    },
+    {
+        "category": "health",
+        "intent": "diet_advice",
+        "description": "Recognizes when the user is looking for dietary recommendations.",
+        "example": "high protein meal plan"
+    },
+    {
+        "category": "health",
+        "intent": "diet_advice",
+        "description": "Recognizes when the user is looking for dietary recommendations.",
+        "example": "food eat well heart health"
+    },
+    {
+        "category": "health",
+        "intent": "diet_advice",
+        "description": "Recognizes when the user is looking for dietary recommendations.",
+        "example": "keto diet good"
+    },
+    {
+        "category": "health",
+        "intent": "diet_advice",
+        "description": "Recognizes when the user is looking for dietary recommendations.",
+        "example": "start intermittent fasting"
+    },
+    {
+        "category": "health",
+        "intent": "calorie_tracking",
+        "description": "Recognizes when the user wants to track their calorie intake.",
+        "example": "calorie bowl oatmeal"
+    },
+    {
+        "category": "health",
+        "intent": "calorie_tracking",
+        "description": "Recognizes when the user wants to track their calorie intake.",
+        "example": "track daily calorie intake"
+    },
+    {
+        "category": "health",
+        "intent": "calorie_tracking",
+        "description": "Recognizes when the user wants to track their calorie intake.",
+        "example": "calorie count meal"
+    },
+    {
+        "category": "health",
+        "intent": "calorie_tracking",
+        "description": "Recognizes when the user wants to track their calorie intake.",
+        "example": "calorie eat day"
+    },
+    {
+        "category": "health",
+        "intent": "calorie_tracking",
+        "description": "Recognizes when the user wants to track their calorie intake.",
+        "example": "compare calorie rice quinoa"
+    },
+    {
+        "category": "health",
+        "intent": "mental_wellness",
+        "description": "Recognizes when the user is looking for advice on mental health and well-being.",
+        "example": "manage stress well"
+    },
+    {
+        "category": "health",
+        "intent": "mental_wellness",
+        "description": "Recognizes when the user is looking for advice on mental health and well-being.",
+        "example": "meditation technique"
+    },
+    {
+        "category": "health",
+        "intent": "mental_wellness",
+        "description": "Recognizes when the user is looking for advice on mental health and well-being.",
+        "example": "way improve sleep quality"
+    },
+    {
+        "category": "health",
+        "intent": "mental_wellness",
+        "description": "Recognizes when the user is looking for advice on mental health and well-being.",
+        "example": "stay motivated work"
+    },
+    {
+        "category": "health",
+        "intent": "mental_wellness",
+        "description": "Recognizes when the user is looking for advice on mental health and well-being.",
+        "example": "tip deal anxiety"
+    },
+    {
+        "category": "health",
+        "intent": "hydration_tips",
+        "description": "Recognizes when the user wants information on staying hydrated.",
+        "example": "water drink daily"
+    },
+    {
+        "category": "health",
+        "intent": "hydration_tips",
+        "description": "Recognizes when the user wants information on staying hydrated.",
+        "example": "drink cold water bad digestion"
+    },
+    {
+        "category": "health",
+        "intent": "hydration_tips",
+        "description": "Recognizes when the user wants information on staying hydrated.",
+        "example": "benefit stay hydrated"
+    },
+    {
+        "category": "health",
+        "intent": "hydration_tips",
+        "description": "Recognizes when the user wants information on staying hydrated.",
+        "example": "know dehydrate"
+    },
+    {
+        "category": "health",
+        "intent": "hydration_tips",
+        "description": "Recognizes when the user wants information on staying hydrated.",
+        "example": "tip drink water"
+    },
+    {
+        "category": "finance",
+        "intent": "stock_prices",
+        "description": "Recognizes when the user wants to check stock prices.",
+        "example": "stock price apple today"
+    },
+    {
+        "category": "finance",
+        "intent": "stock_prices",
+        "description": "Recognizes when the user wants to check stock prices.",
+        "example": "tesla stock performance"
+    },
+    {
+        "category": "finance",
+        "intent": "stock_prices",
+        "description": "Recognizes when the user wants to check stock prices.",
+        "example": "amazon stock perform week"
+    },
+    {
+        "category": "finance",
+        "intent": "stock_prices",
+        "description": "Recognizes when the user wants to check stock prices.",
+        "example": "compare stock price microsoft google"
+    },
+    {
+        "category": "finance",
+        "intent": "stock_prices",
+        "description": "Recognizes when the user wants to check stock prices.",
+        "example": "gain stock today"
+    },
+    {
+        "category": "finance",
+        "intent": "currency_exchange",
+        "description": "Recognizes when the user wants to check currency exchange rates.",
+        "example": "exchange rate usd eur"
+    },
+    {
+        "category": "finance",
+        "intent": "currency_exchange",
+        "description": "Recognizes when the user wants to check currency exchange rates.",
+        "example": "convert 100 dollar yen"
+    },
+    {
+        "category": "finance",
+        "intent": "currency_exchange",
+        "description": "Recognizes when the user wants to check currency exchange rates.",
+        "example": "500 pound canadian dollar"
+    },
+    {
+        "category": "finance",
+        "intent": "currency_exchange",
+        "description": "Recognizes when the user wants to check currency exchange rates.",
+        "example": "good time exchange currency"
+    },
+    {
+        "category": "finance",
+        "intent": "currency_exchange",
+        "description": "Recognizes when the user wants to check currency exchange rates.",
+        "example": "historical exchange rate past month"
+    },
+    {
+        "category": "finance",
+        "intent": "personal_finance",
+        "description": "Recognizes when the user seeks financial planning and budgeting advice.",
+        "example": "create monthly budget"
+    },
+    {
+        "category": "finance",
+        "intent": "personal_finance",
+        "description": "Recognizes when the user seeks financial planning and budgeting advice.",
+        "example": "tip save money"
+    },
+    {
+        "category": "finance",
+        "intent": "personal_finance",
+        "description": "Recognizes when the user seeks financial planning and budgeting advice.",
+        "example": "good way manage debt"
+    },
+    {
+        "category": "finance",
+        "intent": "personal_finance",
+        "description": "Recognizes when the user seeks financial planning and budgeting advice.",
+        "example": "save retirement"
+    },
+    {
+        "category": "finance",
+        "intent": "personal_finance",
+        "description": "Recognizes when the user seeks financial planning and budgeting advice.",
+        "example": "50/30/20 rule budgeting"
+    },
+    {
+        "category": "finance",
+        "intent": "investment_advice",
+        "description": "Recognizes when the user is looking for investment strategies.",
+        "example": "good investment option beginner"
+    },
+    {
+        "category": "finance",
+        "intent": "investment_advice",
+        "description": "Recognizes when the user is looking for investment strategies.",
+        "example": "real estate good investment"
+    },
+    {
+        "category": "finance",
+        "intent": "investment_advice",
+        "description": "Recognizes when the user is looking for investment strategies.",
+        "example": "start invest stock"
+    },
+    {
+        "category": "finance",
+        "intent": "investment_advice",
+        "description": "Recognizes when the user is looking for investment strategies.",
+        "example": "risk cryptocurrency investment"
+    },
+    {
+        "category": "finance",
+        "intent": "investment_advice",
+        "description": "Recognizes when the user is looking for investment strategies.",
+        "example": "tip long term investing"
+    },
+    {
+        "category": "finance",
+        "intent": "economic_trends",
+        "description": "Recognizes when the user wants updates on economic trends and financial news.",
+        "example": "current inflation rate"
+    },
+    {
+        "category": "finance",
+        "intent": "economic_trends",
+        "description": "Recognizes when the user wants updates on economic trends and financial news.",
+        "example": "job market perform year"
+    },
+    {
+        "category": "finance",
+        "intent": "economic_trends",
+        "description": "Recognizes when the user wants updates on economic trends and financial news.",
+        "example": "late trend global trade"
+    },
+    {
+        "category": "finance",
+        "intent": "economic_trends",
+        "description": "Recognizes when the user wants updates on economic trends and financial news.",
+        "example": "summary today financial news"
+    },
+    {
+        "category": "finance",
+        "intent": "economic_trends",
+        "description": "Recognizes when the user wants updates on economic trends and financial news.",
+        "example": "impact interest rate change economy"
+    },
+    {
+        "category": "technology",
+        "intent": "tech_news",
+        "description": "Recognizes when the user wants updates on the latest technology news.",
+        "example": "late trend ai"
+    },
+    {
+        "category": "technology",
+        "intent": "tech_news",
+        "description": "Recognizes when the user wants updates on the latest technology news.",
+        "example": "tell new smartphone release"
+    },
+    {
+        "category": "technology",
+        "intent": "tech_news",
+        "description": "Recognizes when the user wants updates on the latest technology news.",
+        "example": "happen tech industry week"
+    },
+    {
+        "category": "technology",
+        "intent": "tech_news",
+        "description": "Recognizes when the user wants updates on the latest technology news.",
+        "example": "late advancement quantum computing"
+    },
+    {
+        "category": "technology",
+        "intent": "tech_news",
+        "description": "Recognizes when the user wants updates on the latest technology news.",
+        "example": "big technology breakthrough year"
+    },
+    {
+        "category": "technology",
+        "intent": "device_troubleshooting",
+        "description": "Recognizes when the user needs help fixing a tech issue.",
+        "example": "laptop will turn"
+    },
+    {
+        "category": "technology",
+        "intent": "device_troubleshooting",
+        "description": "Recognizes when the user needs help fixing a tech issue.",
+        "example": "phone battery drain fast"
+    },
+    {
+        "category": "technology",
+        "intent": "device_troubleshooting",
+        "description": "Recognizes when the user needs help fixing a tech issue.",
+        "example": "fix slow internet connection"
+    },
+    {
+        "category": "technology",
+        "intent": "device_troubleshooting",
+        "description": "Recognizes when the user needs help fixing a tech issue.",
+        "example": "printer work help"
+    },
+    {
+        "category": "technology",
+        "intent": "device_troubleshooting",
+        "description": "Recognizes when the user needs help fixing a tech issue.",
+        "example": "reset router"
+    },
+    {
+        "category": "technology",
+        "intent": "gadget_recommendations",
+        "description": "Recognizes when the user wants suggestions for new tech gadgets.",
+        "example": "good smartphone $ 500"
+    },
+    {
+        "category": "technology",
+        "intent": "gadget_recommendations",
+        "description": "Recognizes when the user wants suggestions for new tech gadgets.",
+        "example": "recommend good laptop gaming"
+    },
+    {
+        "category": "technology",
+        "intent": "gadget_recommendations",
+        "description": "Recognizes when the user wants suggestions for new tech gadgets.",
+        "example": "good wireless headphone"
+    },
+    {
+        "category": "technology",
+        "intent": "gadget_recommendations",
+        "description": "Recognizes when the user wants suggestions for new tech gadgets.",
+        "example": "smartwatch buy"
+    },
+    {
+        "category": "technology",
+        "intent": "gadget_recommendations",
+        "description": "Recognizes when the user wants suggestions for new tech gadgets.",
+        "example": "suggest budget friendly tablet"
+    },
+    {
+        "category": "technology",
+        "intent": "software_guidance",
+        "description": "Recognizes when the user needs help with software usage and installation.",
+        "example": "install window 11"
+    },
+    {
+        "category": "technology",
+        "intent": "software_guidance",
+        "description": "Recognizes when the user needs help with software usage and installation.",
+        "example": "good antivirus pc"
+    },
+    {
+        "category": "technology",
+        "intent": "software_guidance",
+        "description": "Recognizes when the user needs help with software usage and installation.",
+        "example": "use photoshop beginner"
+    },
+    {
+        "category": "technology",
+        "intent": "software_guidance",
+        "description": "Recognizes when the user needs help with software usage and installation.",
+        "example": "guide set vpn"
+    },
+    {
+        "category": "technology",
+        "intent": "software_guidance",
+        "description": "Recognizes when the user needs help with software usage and installation.",
+        "example": "recover delete file mac"
+    },
+    {
+        "category": "technology",
+        "intent": "emerging_tech",
+        "description": "Recognizes when the user wants insights on emerging technologies.",
+        "example": "tell advancement artificial intelligence"
+    },
+    {
+        "category": "technology",
+        "intent": "emerging_tech",
+        "description": "Recognizes when the user wants insights on emerging technologies.",
+        "example": "future blockchain technology"
+    },
+    {
+        "category": "technology",
+        "intent": "emerging_tech",
+        "description": "Recognizes when the user wants insights on emerging technologies.",
+        "example": "5 g impact daily life"
+    },
+    {
+        "category": "technology",
+        "intent": "emerging_tech",
+        "description": "Recognizes when the user wants insights on emerging technologies.",
+        "example": "potential use augmented reality"
+    },
+    {
+        "category": "technology",
+        "intent": "emerging_tech",
+        "description": "Recognizes when the user wants insights on emerging technologies.",
+        "example": "explain benefit edge computing"
+    },
+    {
+        "category": "education",
+        "intent": "course_recommendations",
+        "description": "Recognizes when the user is looking for educational courses or learning platforms.",
+        "example": "good online course datum science"
+    },
+    {
+        "category": "education",
+        "intent": "course_recommendations",
+        "description": "Recognizes when the user is looking for educational courses or learning platforms.",
+        "example": "recommend good platform learn programming"
+    },
+    {
+        "category": "education",
+        "intent": "course_recommendations",
+        "description": "Recognizes when the user is looking for educational courses or learning platforms.",
+        "example": "free machine learning course"
+    },
+    {
+        "category": "education",
+        "intent": "course_recommendations",
+        "description": "Recognizes when the user is looking for educational courses or learning platforms.",
+        "example": "suggest good book learn python"
+    },
+    {
+        "category": "education",
+        "intent": "course_recommendations",
+        "description": "Recognizes when the user is looking for educational courses or learning platforms.",
+        "example": "good resource self learn ai"
+    },
+    {
+        "category": "education",
+        "intent": "study_tips",
+        "description": "Recognizes when the user is looking for advice on effective studying techniques.",
+        "example": "improve concentration study"
+    },
+    {
+        "category": "education",
+        "intent": "study_tips",
+        "description": "Recognizes when the user is looking for advice on effective studying techniques.",
+        "example": "good way retain information"
+    },
+    {
+        "category": "education",
+        "intent": "study_tips",
+        "description": "Recognizes when the user is looking for advice on effective studying techniques.",
+        "example": "tip exam preparation"
+    },
+    {
+        "category": "education",
+        "intent": "study_tips",
+        "description": "Recognizes when the user is looking for advice on effective studying techniques.",
+        "example": "create effective study schedule"
+    },
+    {
+        "category": "education",
+        "intent": "study_tips",
+        "description": "Recognizes when the user is looking for advice on effective studying techniques.",
+        "example": "pomodoro technique help study"
+    },
+    {
+        "category": "education",
+        "intent": "language_learning",
+        "description": "Recognizes when the user is looking for help with learning a new language.",
+        "example": "good way learn spanish quickly"
+    },
+    {
+        "category": "education",
+        "intent": "language_learning",
+        "description": "Recognizes when the user is looking for help with learning a new language.",
+        "example": "improve english vocabulary"
+    },
+    {
+        "category": "education",
+        "intent": "language_learning",
+        "description": "Recognizes when the user is looking for help with learning a new language.",
+        "example": "suggest app learn french"
+    },
+    {
+        "category": "education",
+        "intent": "language_learning",
+        "description": "Recognizes when the user is looking for help with learning a new language.",
+        "example": "common mistake learn german"
+    },
+    {
+        "category": "education",
+        "intent": "language_learning",
+        "description": "Recognizes when the user is looking for help with learning a new language.",
+        "example": "practice pronunciation japanese"
+    },
+    {
+        "category": "education",
+        "intent": "academic_questions",
+        "description": "Recognizes when the user is asking subject-specific academic questions.",
+        "example": "explain newton law motion"
+    },
+    {
+        "category": "education",
+        "intent": "academic_questions",
+        "description": "Recognizes when the user is asking subject-specific academic questions.",
+        "example": "difference mitosis meiosis"
+    },
+    {
+        "category": "education",
+        "intent": "academic_questions",
+        "description": "Recognizes when the user is asking subject-specific academic questions.",
+        "example": "pythagorean theorem work"
+    },
+    {
+        "category": "education",
+        "intent": "academic_questions",
+        "description": "Recognizes when the user is asking subject-specific academic questions.",
+        "example": "tell cause world war ii"
+    },
+    {
+        "category": "education",
+        "intent": "academic_questions",
+        "description": "Recognizes when the user is asking subject-specific academic questions.",
+        "example": "explain concept supply demand"
+    },
+    {
+        "category": "education",
+        "intent": "career_guidance",
+        "description": "Recognizes when the user needs advice on career choices and education paths.",
+        "example": "skill need data scientist"
+    },
+    {
+        "category": "education",
+        "intent": "career_guidance",
+        "description": "Recognizes when the user needs advice on career choices and education paths.",
+        "example": "pursue master degree ai"
+    },
+    {
+        "category": "education",
+        "intent": "career_guidance",
+        "description": "Recognizes when the user needs advice on career choices and education paths.",
+        "example": "good career path software developer"
+    },
+    {
+        "category": "education",
+        "intent": "career_guidance",
+        "description": "Recognizes when the user needs advice on career choices and education paths.",
+        "example": "build strong resume tech job"
+    },
+    {
+        "category": "education",
+        "intent": "career_guidance",
+        "description": "Recognizes when the user needs advice on career choices and education paths.",
+        "example": "highest pay job 2025"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_recommendations",
+        "description": "Recognizes when the user is looking for travel destination suggestions.",
+        "example": "good place visit europe"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_recommendations",
+        "description": "Recognizes when the user is looking for travel destination suggestions.",
+        "example": "suggest good vacation spot family"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_recommendations",
+        "description": "Recognizes when the user is looking for travel destination suggestions.",
+        "example": "tropical getaway"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_recommendations",
+        "description": "Recognizes when the user is looking for travel destination suggestions.",
+        "example": "tourist attraction japan"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_recommendations",
+        "description": "Recognizes when the user is looking for travel destination suggestions.",
+        "example": "recommend hidden gem traveler"
+    },
+    {
+        "category": "travel",
+        "intent": "flight_booking",
+        "description": "Recognizes when the user wants assistance with booking flights.",
+        "example": "find cheap flight paris"
+    },
+    {
+        "category": "travel",
+        "intent": "flight_booking",
+        "description": "Recognizes when the user wants assistance with booking flights.",
+        "example": "book minute flight"
+    },
+    {
+        "category": "travel",
+        "intent": "flight_booking",
+        "description": "Recognizes when the user wants assistance with booking flights.",
+        "example": "compare flight price new york week"
+    },
+    {
+        "category": "travel",
+        "intent": "flight_booking",
+        "description": "Recognizes when the user wants assistance with booking flights.",
+        "example": "good airline international travel"
+    },
+    {
+        "category": "travel",
+        "intent": "flight_booking",
+        "description": "Recognizes when the user wants assistance with booking flights.",
+        "example": "direct flight london dubai"
+    },
+    {
+        "category": "travel",
+        "intent": "hotel_reservations",
+        "description": "Recognizes when the user is looking for accommodation options.",
+        "example": "find budget hotel san francisco"
+    },
+    {
+        "category": "travel",
+        "intent": "hotel_reservations",
+        "description": "Recognizes when the user is looking for accommodation options.",
+        "example": "well rate resort bali"
+    },
+    {
+        "category": "travel",
+        "intent": "hotel_reservations",
+        "description": "Recognizes when the user is looking for accommodation options.",
+        "example": "recommend luxury hotel rome"
+    },
+    {
+        "category": "travel",
+        "intent": "hotel_reservations",
+        "description": "Recognizes when the user is looking for accommodation options.",
+        "example": "discount hotel booking"
+    },
+    {
+        "category": "travel",
+        "intent": "hotel_reservations",
+        "description": "Recognizes when the user is looking for accommodation options.",
+        "example": "pet friendly hotel los angeles"
+    },
+    {
+        "category": "travel",
+        "intent": "local_attractions",
+        "description": "Recognizes when the user wants to explore attractions in a location.",
+        "example": "visit place barcelona"
+    },
+    {
+        "category": "travel",
+        "intent": "local_attractions",
+        "description": "Recognizes when the user wants to explore attractions in a location.",
+        "example": "tell cultural site egypt"
+    },
+    {
+        "category": "travel",
+        "intent": "local_attractions",
+        "description": "Recognizes when the user wants to explore attractions in a location.",
+        "example": "free attraction berlin"
+    },
+    {
+        "category": "travel",
+        "intent": "local_attractions",
+        "description": "Recognizes when the user wants to explore attractions in a location.",
+        "example": "good time visit grand canyon"
+    },
+    {
+        "category": "travel",
+        "intent": "local_attractions",
+        "description": "Recognizes when the user wants to explore attractions in a location.",
+        "example": "list historical landmark london"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_tips",
+        "description": "Recognizes when the user is looking for travel advice and tips.",
+        "example": "travel budget"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_tips",
+        "description": "Recognizes when the user is looking for travel advice and tips.",
+        "example": "essential travel item pack"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_tips",
+        "description": "Recognizes when the user is looking for travel advice and tips.",
+        "example": "avoid jet lag"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_tips",
+        "description": "Recognizes when the user is looking for travel advice and tips.",
+        "example": "safe travel woman"
+    },
+    {
+        "category": "travel",
+        "intent": "travel_tips",
+        "description": "Recognizes when the user is looking for travel advice and tips.",
+        "example": "good travel app plan trip"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_lighting",
+        "description": "Recognizes when the user wants to control smart lighting.",
+        "example": "turn living room light"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_lighting",
+        "description": "Recognizes when the user wants to control smart lighting.",
+        "example": "dim bedroom light 50"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_lighting",
+        "description": "Recognizes when the user wants to control smart lighting.",
+        "example": "set kitchen light blue"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_lighting",
+        "description": "Recognizes when the user wants to control smart lighting.",
+        "example": "turn light sleep"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_lighting",
+        "description": "Recognizes when the user wants to control smart lighting.",
+        "example": "schedule porch light turn sunset"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_thermostat",
+        "description": "Recognizes when the user wants to control a smart thermostat.",
+        "example": "set thermostat 72 degree"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_thermostat",
+        "description": "Recognizes when the user wants to control a smart thermostat.",
+        "example": "low temperature 3 degree"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_thermostat",
+        "description": "Recognizes when the user wants to control a smart thermostat.",
+        "example": "switch ac energy save mode"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_thermostat",
+        "description": "Recognizes when the user wants to control a smart thermostat.",
+        "example": "turn heating living room"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_thermostat",
+        "description": "Recognizes when the user wants to control a smart thermostat.",
+        "example": "current temperature setting"
+    },
+    {
+        "category": "smart",
+        "intent": "security_system",
+        "description": "Recognizes when the user wants to manage home security settings.",
+        "example": "arm security system"
+    },
+    {
+        "category": "smart",
+        "intent": "security_system",
+        "description": "Recognizes when the user wants to manage home security settings.",
+        "example": "disarm alarm"
+    },
+    {
+        "category": "smart",
+        "intent": "security_system",
+        "description": "Recognizes when the user wants to manage home security settings.",
+        "example": "lock door"
+    },
+    {
+        "category": "smart",
+        "intent": "security_system",
+        "description": "Recognizes when the user wants to manage home security settings.",
+        "example": "garage door close"
+    },
+    {
+        "category": "smart",
+        "intent": "security_system",
+        "description": "Recognizes when the user wants to manage home security settings.",
+        "example": "security camera feed"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_appliances",
+        "description": "Recognizes when the user wants to control smart home appliances.",
+        "example": "start robot vacuum"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_appliances",
+        "description": "Recognizes when the user wants to control smart home appliances.",
+        "example": "preheat oven 350 degree"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_appliances",
+        "description": "Recognizes when the user wants to control smart home appliances.",
+        "example": "turn coffee machine"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_appliances",
+        "description": "Recognizes when the user wants to control smart home appliances.",
+        "example": "stop washing machine"
+    },
+    {
+        "category": "smart",
+        "intent": "smart_appliances",
+        "description": "Recognizes when the user wants to control smart home appliances.",
+        "example": "current status smart fridge"
+    },
+    {
+        "category": "smart",
+        "intent": "voice_assistant_controls",
+        "description": "Recognizes when the user wants to control the voice assistant itself.",
+        "example": "increase volume assistant"
+    },
+    {
+        "category": "smart",
+        "intent": "voice_assistant_controls",
+        "description": "Recognizes when the user wants to control the voice assistant itself.",
+        "example": "set assistant disturb mode"
+    },
+    {
+        "category": "smart",
+        "intent": "voice_assistant_controls",
+        "description": "Recognizes when the user wants to control the voice assistant itself.",
+        "example": "change assistant voice"
+    },
+    {
+        "category": "smart",
+        "intent": "voice_assistant_controls",
+        "description": "Recognizes when the user wants to control the voice assistant itself.",
+        "example": "available voice command"
+    },
+    {
+        "category": "smart",
+        "intent": "voice_assistant_controls",
+        "description": "Recognizes when the user wants to control the voice assistant itself.",
+        "example": "reset assistant setting"
+    },
+    {
+        "category": "computer",
+        "intent": "file_management",
+        "description": "Recognizes commands related to managing files and folders.",
+        "example": "open download folder"
+    },
+    {
+        "category": "computer",
+        "intent": "file_management",
+        "description": "Recognizes commands related to managing files and folders.",
+        "example": "delete file name report.pdf"
+    },
+    {
+        "category": "computer",
+        "intent": "file_management",
+        "description": "Recognizes commands related to managing files and folders.",
+        "example": "notes.txt document folder"
+    },
+    {
+        "category": "computer",
+        "intent": "file_management",
+        "description": "Recognizes commands related to managing files and folders.",
+        "example": "rename image1.jpg vacation.jpg"
+    },
+    {
+        "category": "computer",
+        "intent": "file_management",
+        "description": "Recognizes commands related to managing files and folders.",
+        "example": "copy project.docx desktop"
+    },
+    {
+        "category": "computer",
+        "intent": "application_control",
+        "description": "Recognizes commands for opening, closing, and switching applications.",
+        "example": "open google chrome"
+    },
+    {
+        "category": "computer",
+        "intent": "application_control",
+        "description": "Recognizes commands for opening, closing, and switching applications.",
+        "example": "close calculator"
+    },
+    {
+        "category": "computer",
+        "intent": "application_control",
+        "description": "Recognizes commands for opening, closing, and switching applications.",
+        "example": "switch window"
+    },
+    {
+        "category": "computer",
+        "intent": "application_control",
+        "description": "Recognizes commands for opening, closing, and switching applications.",
+        "example": "minimize window"
+    },
+    {
+        "category": "computer",
+        "intent": "application_control",
+        "description": "Recognizes commands for opening, closing, and switching applications.",
+        "example": "launch microsoft word"
+    },
+    {
+        "category": "computer",
+        "intent": "system_settings",
+        "description": "Recognizes commands for adjusting system settings like brightness, volume, and connectivity.",
+        "example": "increase screen brightness"
+    },
+    {
+        "category": "computer",
+        "intent": "system_settings",
+        "description": "Recognizes commands for adjusting system settings like brightness, volume, and connectivity.",
+        "example": "turn wi fi"
+    },
+    {
+        "category": "computer",
+        "intent": "system_settings",
+        "description": "Recognizes commands for adjusting system settings like brightness, volume, and connectivity.",
+        "example": "set volume 50"
+    },
+    {
+        "category": "computer",
+        "intent": "system_settings",
+        "description": "Recognizes commands for adjusting system settings like brightness, volume, and connectivity.",
+        "example": "enable dark mode"
+    },
+    {
+        "category": "computer",
+        "intent": "system_settings",
+        "description": "Recognizes commands for adjusting system settings like brightness, volume, and connectivity.",
+        "example": "change wallpaper default"
+    },
+    {
+        "category": "computer",
+        "intent": "system_information",
+        "description": "Recognizes queries related to checking system performance and status.",
+        "example": "ram"
+    },
+    {
+        "category": "computer",
+        "intent": "system_information",
+        "description": "Recognizes queries related to checking system performance and status.",
+        "example": "ip address"
+    },
+    {
+        "category": "computer",
+        "intent": "system_information",
+        "description": "Recognizes queries related to checking system performance and status.",
+        "example": "disk space run low"
+    },
+    {
+        "category": "computer",
+        "intent": "system_information",
+        "description": "Recognizes queries related to checking system performance and status.",
+        "example": "cpu usage statistic"
+    },
+    {
+        "category": "computer",
+        "intent": "system_information",
+        "description": "Recognizes queries related to checking system performance and status.",
+        "example": "check battery percentage"
+    },
+    {
+        "category": "computer",
+        "intent": "task_automation",
+        "description": "Recognizes commands for automating tasks and scheduling system operations.",
+        "example": "schedule shutdown 10 pm"
+    },
+    {
+        "category": "computer",
+        "intent": "task_automation",
+        "description": "Recognizes commands for automating tasks and scheduling system operations.",
+        "example": "create backup file"
+    },
+    {
+        "category": "computer",
+        "intent": "task_automation",
+        "description": "Recognizes commands for automating tasks and scheduling system operations.",
+        "example": "run disk cleanup tool"
+    },
+    {
+        "category": "computer",
+        "intent": "task_automation",
+        "description": "Recognizes commands for automating tasks and scheduling system operations.",
+        "example": "set alarm 7"
+    },
+    {
+        "category": "computer",
+        "intent": "task_automation",
+        "description": "Recognizes commands for automating tasks and scheduling system operations.",
+        "example": "automatically clear cache week"
+    }
+]
